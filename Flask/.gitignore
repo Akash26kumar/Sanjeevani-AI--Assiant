@@ -1,0 +1,12 @@
+venv/
+.env
+myenv/
+**/**/__pycache__/
+*.pyc
+node_modules
+
+myenv/
+.vercel
+
+.DS_Store
+.vscode/

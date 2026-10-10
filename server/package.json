@@ -1,0 +1,25 @@
+{
+  "name": "sanjeevani-server",
+  "version": "1.0.0",
+  "description": "Express API for Sanjeevani (patients, reports, Azure storage, AI orchestration)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "AKASH KUMAR THAKUR",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-rest/ai-document-intelligence": "^1.0.0",
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@azure/core-auth": "^1.9.0",
+    "@azure/storage-blob": "^12.27.0",
+    "axios": "^1.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
